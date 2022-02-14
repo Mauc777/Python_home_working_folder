@@ -14,7 +14,3 @@ for i in range(-n-1, n):
 
 
 
-# for i in Nums:
-        #     if i < len(Nums):
-        #         print(Nums[i] and Nums[i]*-1)
-        
