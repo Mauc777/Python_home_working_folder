@@ -11,7 +11,6 @@ for i in range(0,n+1):
     dictionary[i] = 3* i+1
 print(dictionary)
 
-
 # 2ой вариант решения
 a = int(input(' N = '))
 dictionary = {}
