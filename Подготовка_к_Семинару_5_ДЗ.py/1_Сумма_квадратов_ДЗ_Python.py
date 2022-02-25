@@ -3,5 +3,5 @@
 
 n = int(input('Введите {n}-->>>'))
 # n = 5
-list1 = [sum((i**2) for i in range(1,n+1) if not i % 2) ]
+list1 = [sum((i**2) for i in range(1,n+1) if not i % 2), ]
 print(list1)
