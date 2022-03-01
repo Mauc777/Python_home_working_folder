@@ -5,16 +5,17 @@ import Model_mult
 import Model_difference
 import inite
 
+
 # def Znak():
 #     return 
 
-def Znach():
-    znak = ''
-    if view.Znakk_leter() == '+'  :
+def Calc():
+    sing_now = view.Vvod_sing()
+    if sing_now == '+'  :
         return Model_summ.summ_now()
-    elif view.Znakk_leter() == '-'  :
+    if sing_now  == '-'  :
         return Model_deduction.deduction_now()
-    elif view.Znakk_leter() == '*'  :
+    if sing_now == '*'  :
         return Model_mult.mult_now()       
-    elif view.Znakk_leter() == '//'  :
+    if sing_now == '//'  :
         return Model_difference.difference_now()    
